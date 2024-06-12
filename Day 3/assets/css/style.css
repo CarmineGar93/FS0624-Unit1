@@ -66,11 +66,6 @@ h2 {
     
 }
 
-.method span {
-    display: block;
-    padding: 10px 0;
-    font-weight: bold;
-}
 
 a:link, a:visited {
     color: #004D4C;
