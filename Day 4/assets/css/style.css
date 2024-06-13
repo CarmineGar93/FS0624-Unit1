@@ -3,7 +3,6 @@
 * {
   padding: 0;
   box-sizing: border-box;
-
   font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
 }
@@ -73,6 +72,15 @@ main h1 {
   color: gray;
 }
 
+.primoart ul li,
+.secondoart ol li {
+  list-style-position: inside;
+}
+
+.primoart ul,
+.secondoart ol {
+  padding-left: 20px;
+}
 span {
   color: #aa2072;
   font-weight: bold;
@@ -91,7 +99,6 @@ table caption {
 
 thead tr th {
   border: 0.5px solid white;
-  border-collapse: collapse;
   font-size: 1.1em;
   color: white;
   font-weight: 400;
@@ -182,8 +189,9 @@ tbody tr:last-child {
   margin-top: 0;
 }
 
-.left {
+.articoliCont p:last-child {
   text-align: right;
+  margin: 0;
 }
 
 .articoliCont h4 a:link,
@@ -218,5 +226,9 @@ tbody tr:last-child {
 header,
 footer,
 main {
-  box-shadow: 3px 3px 5px 5px gray;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+
+i {
+  margin-right: 3px;
 }
