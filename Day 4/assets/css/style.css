@@ -21,7 +21,7 @@ header {
     text-align: center;
     padding: 35px 5px;
     
-    box-shadow: 12px 4pxx 8px 2px black;
+    
 }
 
 .headerBox img {
@@ -46,17 +46,22 @@ nav ul li a:link, nav ul li a:visited {
     font-weight: 500;
 }
 
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 nav ul {
     list-style-type: none;
 }
 
 nav ul li::before {
-    content: "=>";
+    content: "\27F9";
     color: white;
 }
 
 nav ul li::after {
-    content: "<=";
+    content: "\27F8";
     color: white;
 }
 
@@ -215,4 +220,8 @@ tbody tr:last-child {
 
 .footer address {
     font-style: normal;
+}
+
+header, footer, main {
+box-shadow: 3px 3px 5px 5px gray;
 }
